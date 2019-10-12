@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="My account">
+        <menu>
+            <item
+                android:id="@+id/nav_login_inf_website"
+                android:icon="@drawable/ic_web_black_24dp"
+                android:title="Log in on website" />
+            <item
+                android:id="@+id/nav_profile_details"
+                android:icon="@drawable/ic_info_outline_black_24dp"
+                android:title="Profile details" />
+        </menu>
+    </item>
+
+</menu>
